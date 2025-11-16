@@ -19,7 +19,7 @@ El flujo de trabajo contempla:
 ```
 project/
 ├── data/
-│ ├── train.csv # Datos de entrenamiento (separador ';')
+│ ├── train.csv # Datos de entrenamiento (separador ';') // not possible due to the file being too large
 │ ├── test.csv # Datos de prueba (separador ';')
 │ └── sample_submission.csv # Ejemplo de archivo de sumisión (separador ',')
 ├── notebooks/
