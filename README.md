@@ -18,19 +18,15 @@ El flujo de trabajo contempla:
 ## Estructura de Archivos
 
 project/
-│
-├─ data/
-│ ├─ train.csv # Datos de entrenamiento (separador ';')
-│ ├─ test.csv # Datos de prueba (separador ';')
-│ └─ sample_submission.csv # Ejemplo de archivo de sumisión (separador ',')
-│
-├─ notebooks/
-│ └─ datathon_upc_notebook.ipynb # Notebook principal
-│
-├─ submission.csv # Archivo generado con las predicciones finales
-├─ README.md # Este archivo
-└─ requirements.txt # Dependencias del proyecto
-
+├── data/
+│   ├── train.csv              # Datos de entrenamiento (separador ';')
+│   ├── test.csv               # Datos de prueba (separador ';')
+│   └── sample_submission.csv  # Ejemplo de archivo de sumisión (separador ',')
+├── notebooks/
+│   └── datathon_upc_notebook.ipynb  # Notebook principal
+├── submission.csv             # Archivo generado con las predicciones finales
+├── README.md                  # Este archivo
+└── requirements.txt           # Dependencias del proyecto
 
 ---
 
